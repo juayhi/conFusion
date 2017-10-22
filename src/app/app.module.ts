@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatToolbarModule, MatListModule, MatLineModule, MatGridListModule } from '@angular/material';
+import { MatToolbarModule, MatListModule, MatLineModule, MatGridListModule, MatCardModule } from '@angular/material';
 import { FlexLayoutModule } from '@angular/flex-layout';
 
 import 'hammerjs';
@@ -22,7 +22,8 @@ import { MenuComponent } from './menu/menu.component';
     MatToolbarModule,
     MatListModule,
     MatLineModule,
-    MatGridListModule
+    MatGridListModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [
